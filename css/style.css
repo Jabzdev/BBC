@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-bottom: 10px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+span.line {
+  font-size: 33px;
+}
+
+header nav img {
+  width: 142px;
+}
+
+header nav span.sign-in {
+  padding-left: 7px;
+  padding-right: 100px;
+}
+
+header nav ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 50px; 
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav form input {
+  width: 200px;
+  height: 30px;
+}
